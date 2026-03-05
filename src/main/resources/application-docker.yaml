@@ -2,6 +2,12 @@ spring:
   application:
     name: wallet
 
+  datasource:
+    url: jdbc:postgresql://postgres:5432/wallet
+    username: postgres
+    password: 123456
+    driver-class-name: org.postgresql.Driver
+
   jpa:
     hibernate:
       ddl-auto: update
