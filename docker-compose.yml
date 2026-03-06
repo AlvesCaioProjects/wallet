@@ -40,6 +40,7 @@ services:
 
 networks:
   bank-service:
+    external: true
 
 volumes:
   postgres_data:
