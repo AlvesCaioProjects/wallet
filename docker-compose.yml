@@ -28,7 +28,7 @@ services:
 
   wallet-api:
     build: .
-    container_name: wallet_api
+    container_name: wallet-api
     ports:
       - "8080:8080"
     depends_on:
